@@ -1,0 +1,149 @@
+.list {
+  margin-top: 10px;
+}
+
+ul.list {
+  margin: 0;
+  padding: 0;
+}
+
+ul.list li {
+  display: block;
+}
+
+.title-box {
+  line-height: 44px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #3c4f6b;
+  cursor: default;
+  padding-left: 3px;
+}
+
+.title-more {
+  margin-top: 38px;
+}
+
+.item {
+  float: left;
+  width: calc(50% - 10px);
+  height: 160px;
+  overflow: hidden;
+  padding: 40px 0;
+  margin: 0 10px 10px 0;
+  background: #fff;
+  position: relative;
+  cursor: default;
+}
+
+.item-even {
+  margin-right: 0;
+}
+
+.item .logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.item .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.item .info {
+  height: 75px;
+  padding: 0 17px;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .info .topbox {
+  line-height: 38px;
+  margin-top: 10px;
+  color: #202020;
+}
+
+.item .info .topbox .title {
+  font-size: 20px;
+}
+
+.item a {
+  color: #333;
+}
+
+.item .info .topbox .time {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.item .info .desc {
+  font-size: 12px;
+  color: #a4a4a4;
+  line-height: 22px;
+}
+
+.item .btns {
+  margin-right: 27px;
+}
+
+.item .btn-download {
+  display: block;
+  margin-top: 24px;
+  line-height: 34px;
+  border: 1px solid #3ace72;
+  background: #3ace72;
+  color: #fff;
+  width: 109px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.item .btn-appstore {
+  background: #fff;
+  color: #28b96c;
+  border-color: #42da89;
+}
+
+.item .btns2 .btn-download {
+  margin-top: 5px;
+}
+
+.item .btn-appstore i {
+  background: url(./images/__icon-mac@2x-j__34wR.png) no-repeat 50%;
+  background-size: 16px auto;
+  margin-right: 0;
+  margin-bottom: 6px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.item .btn-download:hover {
+  background: #4ae484;
+  border-color: #4ae484;
+}
+
+.item .btn-download:active {
+  background: #24be5e;
+  border-color: #24be5e;
+}
+
+.item .btn-appstore:hover {
+  background: #42da89;
+  color: #fff;
+}
+
+.item .btn-appstore:active i,
+.item .btn-appstore:hover i {
+  background: url(./images/__icon-mac-w@2x-2czY5Jo.png) no-repeat 50%;
+  background-size: 16px auto;
+}
+
+.item .btn-appstore:active {
+  background: #24be5e;
+  border-color: #24be5e;
+  color: #fff;
+}
+

@@ -1,0 +1,85 @@
+@import '~normalize.css/normalize.css';
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #edf1f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  _height: 1%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn-download {
+  width: 233px;
+  line-height: 66px;
+  border: 1px solid #3ace72;
+  font-size: 16px;
+  font-size: 25px;
+}
+
+.btn-download,
+.btn-download:link,
+.btn-download:visited {
+  background: #3ace72;
+  color: #fff;
+}
+
+.btn-download:hover {
+  background: #52ed9a;
+  color: #fff;
+  border-color: #52ed9a;
+}
+
+.btn-download:active {
+  background: #39ca7d;
+  color: #fff;
+  border-color: #39ca7d;
+}
+
+.btn-download i {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 24px;
+  height: 24px;
+  line-height: 64px;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  /* background: url(./images/__icon-down-1otn9JV.png) no-repeat 50%; */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 2dppx) {
+  .btn-download i {
+    background: url(./assets/__icon-down@2x-3GnVjZU.png) no-repeat 50%;
+    background-size: 24px 24px;
+  }
+}
+
+.mcon {
+  width: 1200px;
+  margin: 0 auto;
+}

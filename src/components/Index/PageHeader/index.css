@@ -1,0 +1,58 @@
+.header {
+  height: 83px;
+  background-color: #fff;
+}
+
+.header .logo-box {
+  padding-left: 45px;
+  height: 50px;
+  margin-top: 15px;
+  /* background: url(./__logo-28ns3i0.png) no-repeat 0; */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 2dppx) {
+  .header .logo-box {
+    background: url(./images/__logo@2x-8fnTawE.png) no-repeat 0;
+    background-size: 32px 32px;
+  }
+}
+
+.header .logo-box .name {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.header .logo-box .desc {
+  color: #888;
+  line-height: 16px;
+}
+
+.header .tion-box {
+  width: 150px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.header .tion-box .ticon {
+  display: inline-block;
+  padding-top: 24px;
+  width: 40px;
+  height: 24px;
+  margin-left: 22px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #6e747e;
+  text-align: center;
+}
+
+.header .tion-box .ticon-phone {
+  background: url(./images/__ticon-phone@2x-GfXvLv6.png) no-repeat center -3px;
+  background-size: 30px 30px;
+}
+
+.header .tion-box .ticon-pc {
+  background: url(./images/__ticon-pc@2x-3NzfN7o.png) no-repeat center -3px;
+  background-size: 30px 30px;
+}
